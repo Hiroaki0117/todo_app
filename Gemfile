@@ -55,3 +55,5 @@ gem 'bootstrap','~> 4.3.1'
 gem 'jquery-rails'
 
 gem 'devise', '~> 4.2'
+
+gem 'acts_as_list'
