@@ -48,7 +48,6 @@ class GoalsController < ApplicationController
   private
     def set_goal
       @goal = current_user.goals.find_by(params[:id])
-
       redirect_to(goals_url, alert: "ERROR") if @goal.blank?
     end
 
